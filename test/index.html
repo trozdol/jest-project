@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Open Dev Tools</h1>
+
+    <script type="module">
+    
+        import * as mylib from '../dist/src/mylib.js';
+        import * as math from '../dist/src/dir/math.js';
+        import * as constants from '../dist/src/dir/constants.js';
+
+        console.log('{ mylib, math, constants }', { 
+            mylib, 
+            math, 
+            constants
+        });
+    </script>
+</body>
+</html>
