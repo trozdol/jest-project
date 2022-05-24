@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "./dist/main.ts",
-  "module": "./src/module.js",
-  "browser": "./dist/mylib.js",
+  "main": "./dist/src/main.ts",
+  "module": "./dist/src/module.js",
+  "browser": "./dist/src/mylib.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
